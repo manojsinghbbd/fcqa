@@ -1,14 +1,9 @@
 {
   "dependencySets": [
-    "employee-assignment",
     "effectivity",
-    "job-type",
-    "form-date",
-    "digital-signature",
-    "employee-profile",
-    "fc-common",
-    "ui-tour"
+    "credentials",
+    "fc-common"
   ],
   "fluidImports": [],
-  "name": "ec-forms"
+  "name": "ec-settings"
 }
