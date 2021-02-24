@@ -40,6 +40,12 @@ registerRouteData('ec-settings', [{
     stateName: 'generalConfig.statusReasons',
     url: '/status-reasons'
 }, {
+    stateName: 'generalConfig.supplementals',
+    url: '/supplementals',
+    $permissions: function $permissions(permissionSvc) {
+        return permissionSvc.isPermittedAction('supplementals', 'view');
+    }
+}, {
     stateName: 'index',
     url: '/'
 }, {
